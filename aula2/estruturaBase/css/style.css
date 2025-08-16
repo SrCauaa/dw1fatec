@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav, header {
+    text-align: center;   
+}
+
+nav, header, main {
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+
+nav, header, main, footer {
+    width: 100%;
+    float: left;
+}
+
+nav {
+    height: 50px;
+    color: darkkhaki;
+    background-color: cadetblue;
+    border-bottom: 1px solid blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+main{
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: brown;
+}
